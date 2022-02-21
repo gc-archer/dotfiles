@@ -1,0 +1,13 @@
+[Unit]
+Description=Lock Screen on Sleep Resume
+Before=sleep.target
+
+[Service]
+User=gc-archer
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=$HOME/.config/i3/scripts/lock.sh
+ExecStartPost=/usr/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target

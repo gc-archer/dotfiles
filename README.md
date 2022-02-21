@@ -1,13 +1,8 @@
-i3-desktop-config
+# dotfiles for Linux
 
 ThinkPad T470
 ArchLinux
-
-Linux desktop/wm configuration files.
-
-Work in progress.
-
-i3 Desktop:
+i3
 
 Setup:
 
@@ -32,5 +27,5 @@ Other Dependencies:
     GIMP
     Document Viewer: Zathura
     Theme Switcher: lxappearance
-    Composite Manager: Compton
-    Secondary Text Editor: Sublime 3
+    Composite Manager: picom
+    Secondary Text Editor: sublime 3
