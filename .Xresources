@@ -1,0 +1,67 @@
+! rofi configuration ---------------------------------------------------------
+!
+rofi.location:          	0
+rofi.color-enabled:     	true
+!                       	'background',  'border'
+rofi.color-window:      	#000000, 		#000000
+! State:                	'bg',    'fg',    'bgalt', 'hlbg',  'hlfg'
+rofi.color-normal:      	#000000, #e5e5e5, #000000, #000000, #0083ff
+rofi.color-urgent:      	#000000, #e5e5e5, #000000, #000000, #0083ff
+rofi.color-active:      	#000000, #e5e5e5, #000000, #000000, #0083ff
+rofi.separator-style:   	dash
+rofi.fullscreen:        	false
+rofi.padding:           	150
+rofi.hide-scrollbar:   		true
+rofi.line-margin:       	5
+rofi.lines:					3
+rofi.fake-transparency: 	false
+rofi.yoffset:           	0
+rofi.xoffset:           	0
+rofi.width:             	40
+rofi.font: 					Overpass Regular 18
+!
+! end rofi config ------------------------------------------------------------
+
+! urxvt configuration ---------------------------------------------------------
+!
+! General Settings
+!
+URxvt.font: 				xft:Source Code Pro Medium:size=11
+URxvt.scrollBar: 			false
+URxvt.cursorBlink: 			1
+URxvt.cursorUnderline: 		1
+!URxvt.cursorColor:			#0083ff
+!
+! Colours
+!
+URxvt.background: 			#000000
+URxvt.foreground: 			#e5e5e5
+
+URxvt.highlightColor:		#0083ff
+URxvt.highlightTextColor:	#e5e5e5
+
+URxvt.color0:  				#000000
+URxvt.color8:  				#000000
+
+URxvt.color1:  				#e5e5e5
+URxvt.color9:  				#e5e5e5
+
+URxvt.color2:  				#0083ff
+URxvt.color10: 				#0083ff
+
+URxvt.color3:  				#e5e5e5
+URxvt.color11: 				#e5e5e5
+
+URxvt.color4:  				#0111e8
+URxvt.color12: 				#606060
+
+URxvt.color5:  				#0083ff
+URxvt.color13: 				#0083ff
+
+URxvt.color6:  				#0057ff
+URxvt.color14: 				#0057ff
+
+URxvt.color7:  				#e5e5e5
+URxvt.color15: 				#e5e5e5
+
+! end urxvt config ------------------------------------------------------------
